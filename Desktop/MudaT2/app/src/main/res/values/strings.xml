@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MudaT</string>
+
+    <string name="title_activity_reg_usuario">Registro de Usuario</string>
+    <string name="title_activity_reg_categorias">Registro de Categoria</string>
+    <string name="title_activity_reg_anuncios">Registro de Anuncio</string>
+
+    <string name="title_activity_cons_usuarios">Listado de Usuarios</string>
+    <string name="title_activity_cons_categorias">Listado de Categorias</string>
+    <string name="title_activity_cons_anuncios">Listado de Anuncios</string>
+
+    <string name="click_para_guardar">Click para guardar</string>
+    <string name="limpiar_texto">Limpiar texto</string>
+    <string name="msjErrorGuardar">Error al Guardar, Contacte a Soporte</string>
+    <string name="msjGuardo">Guardado correctamente</string>
+    <string name="crear_nuevo">Crear Nuevo</string>
+    <string name="title_activity_detalle_anuncio">Detalle Anuncio</string>
+    <string name="title_activity_login">Inicio de Sesion</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar Sesion</string>
+    <string name="action_sign_up">Registrarme</string>
+    <string name="action_sign_in_short">Iniciar Sesion</string>
+    <string name="error_invalid_email">Este email address is invalid</string>
+    <string name="error_invalid_password">Esta Contraseña is too short</string>
+    <string name="error_incorrect_password">Esta Contraseña is incorrect</string>
+    <string name="error_field_required">Este Campo es Obligatorio</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_panel_registro">Panel de Registro</string>
+    <string name="salir">Salir</string>
+</resources>

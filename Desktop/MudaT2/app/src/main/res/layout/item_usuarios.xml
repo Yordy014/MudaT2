@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/itemNombre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Nombre: "
+        android:textColor="@color/colorHora"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/itemIdentifiacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemNombre"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:text="Identificacion: "
+        android:textColor="@color/colorDccent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/itemEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemIdentifiacion"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:text="Email: "
+        android:textColor="@color/colorDccent"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/itemTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemEmail"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:text="Telefono: "
+        android:textColor="@color/colorHora"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/itemSignal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemNombre"
+        android:gravity="right"
+        android:paddingTop="10dp"
+        android:text="→ "
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
+
+</RelativeLayout>

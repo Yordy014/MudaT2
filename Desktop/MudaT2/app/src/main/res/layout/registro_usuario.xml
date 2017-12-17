@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="text.android.mudat2.Registro.RegistroUsuario">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Nombre"
+                    android:textColor="@color/colorDccent"/>
+
+                <EditText
+                    android:id="@+id/editTextNombre"
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorDccent"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Tipo"
+                    android:textColor="@color/colorDccent"/>
+
+                <Spinner
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/tipoUsuarioSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorDccent"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Identificador"
+                    android:textColor="@color/colorDccent"/>
+
+                <EditText
+                    android:id="@+id/editTextIdentificador"
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorDccent"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Email"
+                    android:textColor="@color/colorDccent"/>
+
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorDccent"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Telefono"
+                    android:textColor="@color/colorDccent"/>
+
+                <EditText
+                    android:id="@+id/editTextTelefono"
+                    android:inputType="textPersonName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorDccent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="Clave"
+                    android:textColor="@color/colorDccent"/>
+
+                <EditText
+                    android:id="@+id/editTextClave"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorDccent"/>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="134dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="guardarClick"
+                        android:text="  Guardar  "
+                        android:background="@drawable/bkgnuevo"
+                        android:textColor="@color/colorWhite"/>
+
+                    <Button
+                        android:id="@+id/borrarButton"
+                        android:visibility="gone"
+                        android:layout_width="134dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="borrarButtonClick"
+                        android:text="  Borrar  "
+                        android:background="@drawable/bkgnuevo"
+                        android:textColor="@color/colorWhite"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

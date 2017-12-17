@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="text.android.mudat2.PanelRegistroActivity"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="verUsuarioClick"
+            android:text="@string/title_activity_cons_usuarios"
+            android:background="@drawable/bkgnuevo"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="verCategoriaClick"
+            android:text="@string/title_activity_cons_categorias"
+            android:background="@drawable/bkgnuevo"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="verAnuncioClick"
+            android:text="@string/title_activity_cons_anuncios"
+            android:background="@drawable/bkgnuevo"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bkgnuevo"
+            android:onClick="salirbuttonClick"
+            android:text="@string/salir"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
